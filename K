@@ -1,4 +1,0 @@
-bash
-cd /home/claude/work && python3 -c " from PIL import Image import numpy as np im = Image.open('2.png').convert('RGB') arr = np.array(im) print('kraft', arr[50,50], arr[900,30]) print('gingham dark', arr[1300,50]) print('gingham light', arr[1250,900]) print('envelope maroon', arr[400,600]) " 
-Output
-kraft [196 168 136] [160 31 19] gingham dark [223 202 172] gingham light [194 44 44] envelope maroon [107 8 19]
